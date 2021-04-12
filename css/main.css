@@ -99,7 +99,7 @@ body {
   content: "";
   width: 16px;
   height: 12px;
-  background: url("/icons/menu_hamburger.svg") 50% 50% no-repeat;
+  background: url("./icons/menu_hamburger.svg") 50% 50% no-repeat;
   background-size: cover;
   margin-right: 12px;
 }
@@ -163,7 +163,7 @@ body {
   content: "";
   width: 20px;
   height: 20px;
-  background: url("/icons/search_btn.svg") 50% 50% no-repeat;
+  background: url("./icons/search_btn.svg") 50% 50% no-repeat;
   background-size: 16px;
   position: absolute;
   right: 18px;
@@ -193,10 +193,10 @@ body {
   cursor: pointer;
 }
 .header__btn_profile {
-  background: url("/icons/profile_btn.svg") 50% 50% no-repeat;
+  background: url("./icons/profile_btn.svg") 50% 50% no-repeat;
 }
 .header__btn_cart {
-  background: url("/icons/cart_btn.svg") 50% 50% no-repeat;
+  background: url("./icons/cart_btn.svg") 50% 50% no-repeat;
   position: relative;
 }
 .header__count-in-cart {
@@ -507,7 +507,7 @@ body {
 .product-modal__delete-btn {
   width: 30px;
   height: 30px;
-  background: url("/icons/delete_btn.svg") 50% 50% no-repeat;
+  background: url("./icons/delete_btn.svg") 50% 50% no-repeat;
 }
 .product-modal__item-counter {
   width: 100%;
@@ -526,10 +526,10 @@ body {
   height: 20px;
 }
 .item-counter__btn_add {
-  background: url("/icons/item_counter/add.svg") 50% 50% no-repeat;
+  background: url("./icons/item_counter/add.svg") 50% 50% no-repeat;
 }
 .item-counter__btn_remove {
-  background: url("/icons/item_counter/remove.svg") 50% 50% no-repeat;
+  background: url("./icons/item_counter/remove.svg") 50% 50% no-repeat;
 }
 .item-counter__current-count {
   font-weight: 500;

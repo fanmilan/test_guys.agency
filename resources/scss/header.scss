@@ -32,7 +32,7 @@
       content:'';
       width:20px;
       height:20px;
-      background:url('/icons/search_btn.svg') 50% 50% no-repeat;
+      background:url('./icons/search_btn.svg') 50% 50% no-repeat;
       background-size: 16px;
       position:absolute;
       right:18px;
@@ -67,11 +67,11 @@
     cursor: pointer;
 
     &_profile{
-      background: url('/icons/profile_btn.svg') 50% 50% no-repeat;
+      background: url('./icons/profile_btn.svg') 50% 50% no-repeat;
     }
 
     &_cart{
-      background: url('/icons/cart_btn.svg') 50% 50% no-repeat;
+      background: url('./icons/cart_btn.svg') 50% 50% no-repeat;
       position:relative;
     }
   }
