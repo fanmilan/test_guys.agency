@@ -1,0 +1,120 @@
+.header{
+  border-bottom:1px solid #EAF9FC;
+  padding:20px 94px 10px 94px;
+  margin-bottom: 40px;
+
+
+  &__top{
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  &__bottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__phone-link{
+    color: $base-color;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+  }
+
+  &__search{
+
+    position:relative;
+
+    &:after{
+      content:'';
+      width:20px;
+      height:20px;
+      background:url('/icons/search_btn.svg') 50% 50% no-repeat;
+      background-size: 16px;
+      position:absolute;
+      right:18px;
+      top:10px;
+    }
+  }
+
+  &__search-input{
+    border: 1px solid $base-color;
+    border-radius: 4px;
+    height:40px;
+    padding:10px 50px 7px 20px;
+    opacity:0.7;
+    width:813px;
+    font-size: 16px;
+    line-height: 22px;
+
+    &::placeholder {
+      color: #99A6B9;
+    }
+  }
+
+  &__btns{
+    width:90px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  &__btn{
+    width:30px;
+    height:30px;
+    cursor: pointer;
+
+    &_profile{
+      background: url('/icons/profile_btn.svg') 50% 50% no-repeat;
+    }
+
+    &_cart{
+      background: url('/icons/cart_btn.svg') 50% 50% no-repeat;
+      position:relative;
+    }
+  }
+
+  &__count-in-cart{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background:#E83850;
+    position: absolute;
+    right:0;
+    top:0;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 8px;
+  }
+}
+
+
+.menu{
+  &__list{
+    list-style: none;
+    display: flex;
+  }
+
+  &__item{
+    font-size: 16px;
+    line-height: 22px;
+    color: $base-color;
+    margin-right:15px;
+
+    &:last-of-type{
+      margin-right:0;
+    }
+  }
+
+  &__link{
+    text-decoration: none;
+    color:inherit;
+    cursor:pointer;
+  }
+}

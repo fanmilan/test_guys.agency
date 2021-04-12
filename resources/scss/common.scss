@@ -1,0 +1,163 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+$base-color: #002051;
+
+
+img{
+  max-width:100%;
+  max-height:100%;
+}
+
+button{
+  font:inherit;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  color:$base-color;
+}
+
+.body-wrapper{
+  width:1440px;
+  margin:auto;
+  position:relative;
+}
+
+
+.attrs{
+  width:848px;
+  margin-bottom: 40px;
+
+  &_info{
+    width:393px;
+    .attr__name{
+      width:257px;
+    }
+  }
+
+  &_detail{
+    width:848px;
+    display:flex;
+    justify-content: space-between;
+  }
+}
+
+.attr{
+  display:flex;
+  margin-bottom: 10px;
+  height:23px;
+  &:last-of-type{
+    margin-bottom: 0;
+  }
+
+  &__name{
+    font-size:16px;
+    width:250px;
+  }
+
+  &_detail{
+
+    .attr__name{
+      font-weight:400;
+      line-height:22.4px;
+      color:#99A6B9;
+    }
+
+  }
+
+  &_using{
+    .attr__name{
+      line-height: 22px;
+    }
+  }
+
+  &__value{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  &__link{
+    text-decoration: underline;
+    font-weight:400;
+    line-height:22.4px;
+    font-size:16px;
+    margin-left:10px;
+    cursor:pointer;
+
+    &:hover{
+      color: #0AAEDD;
+    }
+
+  }
+}
+
+
+.btn{
+  cursor:pointer;
+  border:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  border-radius: 2px;
+  background:$base-color;
+
+
+  &_catalog{
+    width: 127px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    &:before{
+      content:'';
+      width:16px;
+      height:12px;
+      background:url('/icons/menu_hamburger.svg') 50% 50% no-repeat;
+      background-size:cover;
+      margin-right:12px;
+    }
+  }
+
+  &_cart{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    width: 157px;
+    height: 50px;
+    text-transform: uppercase;
+
+
+    &:hover{
+      background: #B70F25;
+    }
+  }
+
+  &_modal-cart{
+    width:100%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    background: #E83850;
+    height: 50px;
+  }
+}
+
+.product-price{
+  display:flex;
+
+  &__current-price{
+    color: #DE2F46;
+  }
+
+  &__old-price{
+    color: #99A6B9;
+    text-decoration: line-through;
+  }
+}

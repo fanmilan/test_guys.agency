@@ -1,0 +1,29 @@
+.breadcrumbs{
+  margin-bottom: 40px;
+  height:23px;
+
+  &__list{
+    list-style: none;
+    display: flex;
+  }
+
+  &__item{
+    font-size: 16px;
+    line-height: 22px;
+    color: $base-color;
+
+    &:not(:last-of-type):after{
+      content:'/';
+      margin:0 3px;
+    }
+  }
+
+  &__link{
+    color:inherit;
+    text-decoration: none;
+  }
+
+  &__current-page{
+    color: #99A6B9;
+  }
+}

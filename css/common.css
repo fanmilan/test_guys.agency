@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: $base-color;
+}
+
+.body-wrapper {
+  width: 1440px;
+  margin: auto;
+}
+
+.attrs {
+  margin-bottom: 40px;
+  /*display:flex;
+  width:848px;
+  flex-wrap: wrap;
+
+  justify-content: space-between;*/
+}
+
+.attr {
+  display: flex;
+  margin-bottom: 10px;
+}
+.attr__name {
+  font-size: 16px;
+  width: 250px;
+}
+.attr_detail .attr__name {
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #99A6B9;
+}
+.attr_using .attr__name {
+  line-height: 22px;
+}
+.attr__value {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.attr__link {
+  text-decoration: underline;
+  font-weight: 400;
+  line-height: 22.4px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.attr__link:hover {
+  color: #0AAEDD;
+}
+
+.btn {
+  cursor: pointer;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 2px;
+  background: $base-color;
+}
+.btn_catalog {
+  width: 127px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.btn_catalog:before {
+  content: "";
+  width: 16px;
+  height: 12px;
+  background: url("/icons/menu_hamburger.svg") 50% 50% no-repeat;
+  background-size: cover;
+  margin-right: 12px;
+}
+.btn_cart {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  width: 157px;
+  height: 50px;
+  text-transform: uppercase;
+}
+.btn_cart:hover {
+  background: #B70F25;
+}
