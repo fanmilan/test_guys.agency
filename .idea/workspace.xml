@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d3262428-4d87-46a8-b716-988c43e28892" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +60,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618225730508</updated>
-      <workItem from="1618225731659" duration="28111000" />
+      <workItem from="1618225731659" duration="28413000" />
     </task>
+    <task id="LOCAL-00001" summary="Change Paths">
+      <created>1618257854973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618257854973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change Paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Paths" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1042" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618227954664">
@@ -79,14 +92,14 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1056" y="229" key="Github.UntrackedFilesDialog/-3840.0.1280.710/0.0.2560.1050@0.0.2560.1050" timestamp="1618257260016" />
-    <state x="872" y="257" key="Vcs.Push.Dialog.v2" timestamp="1618257487343">
+    <state x="872" y="257" key="Vcs.Push.Dialog.v2" timestamp="1618257856700">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="872" y="257" key="Vcs.Push.Dialog.v2/-3840.0.1280.710/0.0.2560.1050@0.0.2560.1050" timestamp="1618257487343" />
-    <state x="987" y="258" width="585" height="534" key="find.popup" timestamp="1618254945970">
+    <state x="872" y="257" key="Vcs.Push.Dialog.v2/-3840.0.1280.710/0.0.2560.1050@0.0.2560.1050" timestamp="1618257856700" />
+    <state x="987" y="258" width="585" height="534" key="find.popup" timestamp="1618257822616">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="987" y="258" width="585" height="534" key="find.popup/-3840.0.1280.710/0.0.2560.1050@0.0.2560.1050" timestamp="1618254945970" />
+    <state x="987" y="258" width="585" height="534" key="find.popup/-3840.0.1280.710/0.0.2560.1050@0.0.2560.1050" timestamp="1618257822616" />
     <state x="943" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1618247242481">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>

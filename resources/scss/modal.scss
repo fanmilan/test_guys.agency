@@ -89,7 +89,7 @@
   &__delete-btn{
     width:30px;
     height:30px;
-    background:url('./icons/delete_btn.svg') 50% 50% no-repeat;
+    background:url('../icons/delete_btn.svg') 50% 50% no-repeat;
   }
 
   &__item-counter{
@@ -114,11 +114,11 @@
     height:20px;
 
     &_add{
-      background:url('./icons/item_counter/add.svg') 50% 50% no-repeat;
+      background:url('../icons/item_counter/add.svg') 50% 50% no-repeat;
     }
 
     &_remove{
-      background:url('./icons/item_counter/remove.svg') 50% 50% no-repeat;
+      background:url('../icons/item_counter/remove.svg') 50% 50% no-repeat;
     }
   }
 
